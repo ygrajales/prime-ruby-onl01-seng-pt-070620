@@ -8,6 +8,10 @@ def prime?(number)
     false 
   elsif number == 1 || number == 2
     TRUE
-  elseif range.any?
+  elsif range.any?{|factor| number % factor == 0}
+    false
+  else
+    TRUE
+  end
   
 end
