@@ -2,20 +2,8 @@ require 'pry'
 
 def prime?(number)
   
-  # limit = Integer.sqrt(number)
-  # int_limit = limit.to_i
-  # range = [2..int_limit]
-  
-  if number < 2
-    false
-  elsif number == 2 || number == 3
+  if number < 1 
     TRUE
-  elsif range.any?{|factor| number % factor == 0}
-    FALSE
-  else
-    TRUE
-  end
-  
-  binding.pry
+  elsif number == 1 || number == 2
   
 end
