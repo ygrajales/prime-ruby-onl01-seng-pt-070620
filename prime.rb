@@ -6,8 +6,6 @@ def prime?(number)
   int_limit = limit.to_i
   range = [2..int_limit]
   
-  binding.pry
-  
   if number < 2
     false
   elsif number == 2 || number == 3
@@ -17,5 +15,7 @@ def prime?(number)
   else
     TRUE
   end
+  
+  binding.pry
   
 end
