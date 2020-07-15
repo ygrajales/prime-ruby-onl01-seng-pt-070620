@@ -2,9 +2,9 @@ require 'pry'
 
 def prime?(number)
   
-  limit = Integer.sqrt(number)
-  int_limit = limit.to_i
-  range = [2..int_limit]
+  # limit = Integer.sqrt(number)
+  # int_limit = limit.to_i
+  # range = [2..int_limit]
   
   if number < 2
     false
